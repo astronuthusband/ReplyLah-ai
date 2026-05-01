@@ -71,7 +71,7 @@ export function buildSystemPrompt(input: GenerateInput): string {
     other: "small business / service provider. Common requests: general enquiries, pricing, availability.",
   };
 
-  return `You are ReplyKaki, an AI assistant that writes WhatsApp replies for Malaysian small business owners.
+  return `You are ReplyLah, an AI assistant that writes WhatsApp replies for Malaysian small business owners.
 
 ## YOUR JOB
 Generate 3 distinct, natural WhatsApp replies to the customer message below.
@@ -104,7 +104,7 @@ Natural Manglish patterns to use:
 - "Kosong" = available/empty
 - "Reserve" / "book" = make a booking
 - "Confirm" = confirm
-- "OK la" / "boleh ja" = casual agreement
+- "OK la" / "boleh je" = casual agreement
 - "Terima kasih" = thank you
 - "Jap ya" = wait a moment
 - "Check kejap" = let me check
@@ -153,7 +153,7 @@ export const EXAMPLE_MESSAGES = [
   },
   {
     label: "Food order",
-    message: "Eh ada lagi nasi lemak tak? Nak tapau 3 bungkus",
+    message: "Hi nasi lemak ada lagi tak? Nak tapau 3 bungkus",
     businessType: "food" as BusinessType,
     tone: "friendly" as Tone,
   },
