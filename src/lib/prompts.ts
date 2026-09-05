@@ -1,7 +1,5 @@
 // ============================================================
 //  REPLYLAH — AI PROMPT ENGINEERING MODULE
-//  This is the core differentiator of the product.
-//  Edit these prompts carefully to maintain Malaysian tone.
 // ============================================================
 
 export type BusinessType =
